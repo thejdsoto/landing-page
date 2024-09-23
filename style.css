@@ -57,7 +57,7 @@ header {
             color: #e5e7eb;
         }
 
-.information {
+/* .information {
     display: flex;
     flex-direction: column;
 }
@@ -93,7 +93,7 @@ header {
 
 footer {
     background-color: #1f2937;
-}
+} */
 
 button {
     background-color: #3882f6;
