@@ -119,22 +119,40 @@ html, body {
             }
 
 
-/* .quote {
+.quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
     .quote-body {
+        width: 50%;
+    }
+    
+    .quote-body .quote-content {
         font-size: 36px;
         font-weight: 100;
         font-style: italic;
         color: #1f2937;
+        
+    }
+
+    .quote-body .quote-person {
+        text-align: end;
     }
 
 .sign-up {
-
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
     .sign-up-content {
+        
         background-color: #3882f6;
     }
 
