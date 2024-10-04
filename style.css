@@ -179,4 +179,7 @@ html, body {
 
 footer {
     background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 12px;
 }
