@@ -86,9 +86,10 @@ html, body {
         color: #e5e7eb;
     }
 
-/* .information {
+.information {
     display: flex;
     flex-direction: column;
+    align-items: center;  
 }
 
     .information h2 {
@@ -99,9 +100,26 @@ html, body {
 
     .information-container {
         display: flex;
+        justify-content: space-around;
     }
 
-.quote {
+        .information-container .information-img {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            text-align: center;
+            align-items: center;
+        }
+
+            .information-container .information-img .img-container {
+                border: 2px solid lightskyblue;
+                height: 150px;
+                width: 150px;
+                border-radius: 8px;
+            }
+
+
+/* .quote {
     background-color: #E5E7EB;
 }
 
