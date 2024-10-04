@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     border: 0;
-    font-style: Roboto;
+    font-family: "Roboto";
     display: flex;
     flex-direction: column;
 }
@@ -36,6 +36,7 @@ html, body {
         }
 
         .hero .hero-left button {
+            background-color: #3882f6;
             color: white;
             padding: 8px 32px;
             border-radius: 4px;
@@ -152,14 +153,30 @@ html, body {
 }
 
     .sign-up-content {
-        
+        display: flex;
+        justify-content: space-around;
         background-color: #3882f6;
+        border-radius: 12px;
+        color: white;
+        width: 60%;
+        padding: 24px;
     }
+
+    .sign-up-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .sign-up-button button {
+            background-color: #3882f6;
+            color: white;
+            padding: 8px 32px;
+            border-radius: 4px;
+            border: 2px solid white;
+            font-weight: 900;
+        }
 
 footer {
     background-color: #1f2937;
-} */
-
-button {
-    background-color: #3882f6;
 }
